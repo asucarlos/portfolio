@@ -1,0 +1,295 @@
+/*@import url('https://fonts.googleapis.com/css?family=Raleway');*/
+html,h1,h2,h3,h4,h5,h6,a{
+	font-family: "Raleway";
+}
+
+.navbar{
+	background:#FF4136;
+}
+.nav-link, .navbar-brand{
+	color: #f4f4f4;
+	cursor: pointer;
+}
+.nav-link{
+	margin-right: 1em !important;
+}
+.nav-link:hover{
+	background: #f4f4f4;
+	color: #FF4136 !important;
+
+}
+.navbar-collapse{
+ justify-content: flex-end; 
+}
+/* .navbar-toggler{
+color:#fff !important;
+} */
+.navbar-toggler-icon {
+  color:#ffffff !important
+  
+}
+/*header style*/
+.header{
+	position: relative;
+    background-image: url("../images/headerback1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.overlay{
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(0, 0, 0, 0.20);
+}
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+
+}
+.description h1{
+	color:#FFFFFF ;
+/*    color: #FF4136;*/
+    font-weight: 900;
+    font-size: 4em;
+}
+.description p{
+/*	color:#666;*/
+    color:#FFFFFF;
+	font-size: 1em;
+	width: 50%;
+	line-height: 1.5;
+}
+.description button{
+	border: 1px  solid #F97300;
+	background:#FF4136;
+	color:#fff;
+}
+.about{
+	margin: 4em 0;
+	padding: 1em;
+	position: relative;
+}
+.about h1{
+	color:#F97300;
+	margin: 2em;
+}
+.about img{
+	height: 100%;
+    width: 100%;
+    border-radius: 50%
+}
+.about span{
+	display: block;
+	color: #888;
+/*	left: 115px;*/
+/*    width: 70%*/
+}
+.about .desc{
+	padding: 2em;
+	border-left:4px solid #10828C;
+}
+.about .desc h3{
+	color: #10828C;
+}
+.about .desc p{
+	line-height:2;
+	color:#888;
+}
+   .about img{
+     width: 100%;
+     height: auto;
+    }
+
+/*Buffet*/
+.buffet{
+	margin: 4em 0 0 0;
+    position: relative;	
+}
+.buffet h1,h2{
+	color:#F97300;
+	margin: 2em;	
+}
+.buffet img{
+	 height: 20rem;
+	 width: 100%;
+	 margin: 1em;
+     border-radius: 25px;
+}
+
+.buffet p{
+    text-align: center;
+}
+
+.regular-name{
+    font-size: 1.2em;
+}
+
+.special-name{
+    font-size: 1.2em;
+}
+/*Togo*/
+
+.togo{
+	margin: 4em 0;
+	position: relative;	
+}
+.togo h1{
+	color:#F97300;
+	margin: 2em;	
+}
+.togo .card{
+	box-shadow: 0 0 20px #ccc;
+}
+.togo .card img{
+	width: 100%;
+	height: 18em;
+}
+@media and (max-width: 768px){
+ .team .item img{
+ 	width: 100%;
+ }	
+}
+.togo .card-title{
+	color:#F97300;
+	 
+}
+.togo .card-body{
+	padding: 1em;
+}
+
+
+/*LOCATION*/
+
+.location{
+	margin: 4em 0;
+	position: relative;
+
+}
+.location h1{
+	color:#F97300;
+	margin: 2em;	
+}
+.location .item{
+	position: relative;
+	overflow: hidden;	
+}
+.location .des{
+	background: #F97300;
+	color: #fff;
+	text-align: center;
+	border-top-right-radius: 93%;
+	transition:.3s ease-in-out;
+	position: absolute;
+	width: 88%;
+	bottom: 24px;
+
+
+}
+.location .item:hover .des{
+	height: 100%;
+	background:#f973007d;
+    position: absolute;
+	width: 89%;
+	padding: 5em;
+	top: 0;
+	border-top-right-radius: 0;
+}
+
+ iframe {
+        position: center;
+       }
+
+
+/*signup*/
+
+.signup{
+    padding: 3;
+	margin: 6em 0;
+	position: relative;		
+}
+
+.signup h1{
+	padding:2em 1px;
+	color: #F97300; 
+}
+.signup .right{
+	max-width: 600px;
+}
+.signup .right .btn-secondary{
+	background:  #FF4136;
+	color: #fff;
+	border:0;
+}
+.signup .right .form-control::placeholder{
+	color: #888;
+	font-size: 16px;
+}
+
+@media (max-width: 720px) {
+.description h1{
+	color:#FFFFFF ;
+/*    color: #FF4136;*/
+    font-weight: 900;
+    font-size: 3em;
+}
+.description p{
+/*	color:#666;*/
+    color:#FFFFFF;
+	font-size: 1em;
+	width: 90%;
+	line-height: 1.5;
+}
+    .buffet{
+	margin: 4em 0 0 0;
+    position: relative;	
+}
+.buffet h1,h2{
+	color:#F97300;
+	margin: 0.5em;	
+}
+.buffet img{
+/*	 height: 10rem;*/
+	 width: 100%;
+     height: auto;
+	 margin: 1em;
+     border-radius: 25px;
+}
+
+
+}
+
+@media (max-width: 540px) {
+.description h1{
+	color:#FFFFFF ;
+/*    color: #FF4136;*/
+    font-weight: 900;
+    font-size: 2em;
+}
+.description p{
+/*	color:#666;*/
+    color:#FFFFFF;
+	font-size: 1em;
+	width: 90%;
+	line-height: 1.5;
+}
+    .buffet{
+	margin: 4em 0 0 0;
+    position: relative;	
+}
+.buffet h1,h2{
+	color:#F97300;
+	margin: 0.5em;	
+}
+.buffet img{
+	 width: 100%;
+     height: auto;
+	 margin: 1em;
+     border-radius: 25px;
+}
+
+}
